@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  --primary-light-color: #F4F4FB;
+  --secondary-light-color: #008FFF;
+  --tetiary-light-color: #50E3C2;
+  --primary-text-light-color :#Fff;
+  --secondary-text-light-color :#FF5436;
+
+
+
+
+ --primary-dark-color: #1A2744;
+  --secondary-dark-color: #1a76bd;
+  --tetiary-dark-color: #1A2744;
+  --primary-text-dark-color :#Fff;
+  --secondary-text-dark-color :#FF8975;
+
+
+}
+
+
+
+body{
+   background-color: var(--primary-dark-color);
+    color: var(--primary-text-dark-color);
+   
+}
+.pw-container{
+    background-color: var(--tetiary-dark-color);
+}
+.pw{
+    background-color: var(--secondary-dark-color);
+}
+
+.pw-button{
+    background-color: var(--secondary-text-dark-color);
+    color: #fff;
+}
+
+
+.generate{
+    background-color: var(--secondary-dark-color);
+    color: var(--text-dark-color);
+}
+
+
+
+.mode{
+    background-color: var(--secondary-dark-color);
+}
+
+.mode:hover{
+  background-color: var(--secondary-light-color)
+}
